@@ -27,7 +27,6 @@ python src/train_final_model.py
 
 # Launch Flask API
 python app.py
-curl "http://localhost:5000/predict?weight=3000&horsepower=130"
 
 | Model             | Test RMSE |
 | ----------------- | --------- |
